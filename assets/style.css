@@ -51,16 +51,15 @@ nav a:hover {
     margin: 20px;
     width: 100%;
 }
-.content div {
-    display: inline-flex;
-}
-.content img {
-    max-height: 200px;
+
+.content #about-me img {
+    height: 200px;
 }
 .content p {
     text-align: justify;
     margin: 10px;
 }
+
 .content li {
     display: inline-flex;
     flex-wrap: wrap;
@@ -69,20 +68,27 @@ nav a:hover {
     background-color: rgba(100, 145, 167, 0.863);
 }
 .content li a {
+    
     text-decoration: none;
     color: black;
 }
-.content a:hov {
-    color: whitesmoke;
+.content div {
+    display: flex;
+}
+.content #sub-image {
+    width: 50%;
 }
 
 /* image and contact link */
-
-#main-image {
+.content #work a{
+    display: flex;
     width: 100%;
+    padding: 10px;
 }
-#sub-image {
-    width: 50%;
+
+/* Contact me styles */
+.content #contact-me a:hov {
+    color: whitesmoke;
 }
 #contact-me li {
     list-style-type: none;
