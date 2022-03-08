@@ -1,0 +1,15 @@
+.custom-article {
+    columns:auto;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.custom-button {
+    border: 1px;
+    border-style: solid;
+    border-radius: 40px;
+    margin-right: 30px;
+    font-size: 30px;
+    background-color: hsl(219, 100%, 90%);
+}
