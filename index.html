@@ -1,86 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
     <title>James Lee's Portfolio</title>
-    <link rel = "stylesheet" type = "text/css" href = "./assets/style.css">
 </head>
+
 <body>
-    
-    <header>
-        <h1>James Lee</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>
+        <nav id="nav" class="navbar has-background-info-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <div class="navbar-item has-text-light is-size-3">James Lee</div>
+            </div>
+            <div class="navbar-end is-size-4">
+                <a href="#about-me" class="navbar-item has-text-light">About Me</a>
+                <a href="#works" class="navbar-item has-text-light">Works</a>
+                <a href="#contact-me" class="navbar-item has-text-light">Contact Me</a>
+                <a href="#resume" class="navbar-item has-text-light">Resume</a>
+            </div>
         </nav>
-    </header>
+
+        <nav class="navbar navbar-end box is-fixed-bottom has-background-grey-dark p-0" style="width: 150px;">
+            <a href="#nav" class="column has-text-centered has-text-white is-size-5">Back to Top</a>
+        </nav>
 
     <main>
-        <section class="content">
+        <section class="column">
             <!-- About me -->
-            <article id="about-me">
-                <h2>About Me</h2>
-                <div>
-                    <img src="https://via.placeholder.com/200" alt="placeholder work image"/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit turpis sed urna porta, eleifend efficitur erat elementum. 
-                        Pellentesque ipsum orci, semper sit amet ex nec, vestibulum commodo lorem. Sed luctus at felis id pellentesque. 
-                        Integer eu suscipit enim. Morbi vel metus vitae elit consectetur volutpat ac a ligula. Pellentesque vitae posuere mi. 
-                        Fusce non lorem sit amet enim euismod fringilla et auctor felis. Suspendisse potenti. Nunc eget eros accumsan, porttitor justo ut, interdum orci. 
+            <article id="about-me" class="custom-article pb-4">
+                <div class="column box is-2 has-background-info has-text-white is-size-3 m-0">About Me</div>
+                <div class="columns mx-1 px-1">
+                    <img class="column" style="max-height: 200px; max-width: 200px;" src="https://via.placeholder.com/200" alt="placeholder work image" />
+                    <p class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit turpis sed urna porta,
+                        eleifend efficitur erat elementum.
+                        Pellentesque ipsum orci, semper sit amet ex nec, vestibulum commodo lorem. Sed luctus at felis
+                        id pellentesque.
+                        Integer eu suscipit enim. Morbi vel metus vitae elit consectetur volutpat ac a ligula.
+                        Pellentesque vitae posuere mi.
+                        Fusce non lorem sit amet enim euismod fringilla et auctor felis. Suspendisse potenti. Nunc eget
+                        eros accumsan, porttitor justo ut, interdum orci.
                         Etiam commodo lorem libero, vel pretium nisi dignissim vitae.
                     </p>
                 </div>
             </article>
             <!-- Work -->
-            <article id="work">
-                <h2>Work</h2>  
-                <!-- First application -->
-                <a href="">
-                    <img id="main-image" src="https://via.placeholder.com/1000x500" alt="placeholder work image"/>  
-                </a>
-                <div>
-                    <a href="">
-                        <img id="sub-image" src="https://via.placeholder.com/600x200" alt="placeholder work image"/>  
+            <article id="works" class="custom-article">
+                <div class="column box is-2 has-background-info has-text-white is-size-3">Work</div>
+                <div class="column">
+                    <a href="" class="column">
+                        <img class="column is-centered is-full" style="max-height: 400px;" src="https://via.placeholder.com/500x250" alt="placeholder work image" />
                     </a>
-                    <a href="">
-                        <img id="sub-image" src="https://via.placeholder.com/600x200" alt="placeholder work image"/>  
-                    </a>
-                    <a href="">
-                        <img id="sub-image" src="https://via.placeholder.com/600x200" alt="placeholder work image"/>  
-                    </a>
-                    <a href="">
-                        <img id="sub-image" src="https://via.placeholder.com/600x200" alt="placeholder work image"/>  
-                    </a>
-
+                    <div class="columns m-0">
+                        <a href="" class="column p-1"><img class="column is-centered is-full p-1" style="height: 200px;" src="https://via.placeholder.com/600x200" alt="placeholder work image" /></a>
+                        <a href="" class="column p-1"><img class="column is-centered is-full p-1" style="height: 200px;" src="https://via.placeholder.com/600x200" alt="placeholder work image" /></a>
+                    </div>
+                    <div class="columns m-0">
+                        <a href="" class="column p-1"><img class="column is-centered is-full p-1" style="height: 200px;" src="https://via.placeholder.com/600x200" alt="placeholder work image" /></a>
+                        <a href="" class="column p-1"><img class="column is-centered is-full p-1" style="height: 200px;" src="https://via.placeholder.com/600x200" alt="placeholder work image" /></a>
+                    </div>
+                    <div class="columns m-0">
+                        <a href="" class="column p-1"><img class="column is-centered is-full p-1" style="height: 200px;" src="https://via.placeholder.com/600x200" alt="placeholder work image" /></a>
+                        <a href="" class="column p-1"><img class="column is-centered is-full p-1" style="height: 200px;" src="https://via.placeholder.com/600x200" alt="placeholder work image" /></a>
+                    </div>
                 </div>
                 <!-- smaller works -->
             </article>
 
             <!-- Contact Me -->
-            <article id="contact-me">
-                <h2>Contact Me</h2>
-                <ul>
-                    <li>201-364-3636</li>
-                    <li><a href="mailto:jamehzzlee@gmail.com">jamehzzlee@gmail.com</a></li>
-                    <li><a href="https://github.com/jamehzlee">GitHub</a></li>
-                </ul>
+            <article id="contact-me" class="custom-article">
+                <div class="column box is-2 has-background-info has-text-white is-size-3">Contact Me</div>
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">201-364-3636</div>
+                        <div class="column"><a href="mailto:jamehzzlee@gmail.com">this.jameslee96@gmail.com</a></div>
+                        <div class="column"><a href="https://github.com/jamehzlee">GitHub</a></div>
+                    </div>
+                </div>
             </article>
-            
+
             <!-- Resume -->
-            <article id="resume">
-                <h2>Resume</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit turpis sed urna porta, eleifend efficitur erat elementum. 
-                    Pellentesque ipsum orci, semper sit amet ex nec, vestibulum commodo lorem. Sed luctus at felis id pellentesque.
+            <article id="resume" class="custom-article">
+                <div class="column box is-2 has-background-info has-text-white is-size-3">Resume</div>
+                <p class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit turpis sed urna porta, eleifend
+                    efficitur erat elementum.
+                    Pellentesque ipsum orci, semper sit amet ex nec, vestibulum commodo lorem. Sed luctus at felis id
+                    pellentesque.
                 </p>
             </article>
         </section>
     </main>
-    
+
     <footer></footer>
 </body>
+
 </html>
