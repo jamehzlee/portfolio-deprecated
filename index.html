@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>James Lee's Portfolio</title>
 </head>
 
@@ -15,7 +18,7 @@
             <div class="navbar-brand">
                 <div class="navbar-item has-text-light is-size-3">James Lee</div>
             </div>
-            <div class="navbar-end is-size-4">
+            <div class="navbar-end is-size-3">
                 <a href="#about-me" class="navbar-item has-text-light has-text-right">About Me</a>
                 <a href="#works" class="navbar-item has-text-light has-text-right">Works</a>
                 <a href="#contact-me" class="navbar-item has-text-light has-text-right">Contact Me</a>
@@ -31,41 +34,38 @@
         <section class="column">
             <!-- About me -->
             <article id="about-me" class="custom-article pb-4">
-                <div class="column box is-2 has-background-info has-text-white is-size-3 m-0">About Me</div>
-                <div class="columns mx-1 px-1">
-                    <img class="column" style="max-height: 200px; max-width: 200px;" src="./assets/images/profile.png" alt="placeholder work image" />
-                    <p class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit turpis sed urna porta,
-                        eleifend efficitur erat elementum.
-                        Pellentesque ipsum orci, semper sit amet ex nec, vestibulum commodo lorem. Sed luctus at felis
-                        id pellentesque.
-                        Integer eu suscipit enim. Morbi vel metus vitae elit consectetur volutpat ac a ligula.
-                        Pellentesque vitae posuere mi.
-                        Fusce non lorem sit amet enim euismod fringilla et auctor felis. Suspendisse potenti. Nunc eget
-                        eros accumsan, porttitor justo ut, interdum orci.
-                        Etiam commodo lorem libero, vel pretium nisi dignissim vitae.
-                    </p>
+                <div class="column box is-2 has-background-info has-text-white is-size-2 m-0">About Me</div>
+                <div class="column mx-1 px-1">
+                    <div class="columns">
+                        <img class="column" style="max-height: 200px; max-width: 200px;" src="./assets/images/profile.png" alt="placeholder work image" />
+                        <p class="column is-9 pl-5">
+                            I first stumbled into coding in high school when a Java class was offered for the first time.
+                            <br>
+                            Was not content working in Logistics and so I joined a coding bootcamp to propel myself on a new career path.
+                        </p>
+                    </div>
                 </div>
             </article>
             <!-- Work -->
             <article id="works" class="custom-article">
-                <div class="column box is-2 has-background-info has-text-white is-size-3">Works</div>
+                <div class="column box is-2 has-background-info has-text-white is-size-2">Works</div>
                 <div class="column">
 
                     <div class="column">
-                        <a class="is-size-4 has-text-weight-medium is-underlined" href="https://github.com/jamehzlee/Pokemon-Data-Finder">Pokemon Data Finder on GitHub</a>
+                        <a class="is-size-3 has-text-weight-bold is-underlined" href="https://github.com/jamehzlee/Pokemon-Data-Finder">Pokemon Data Finder on GitHub</a>
                         <a href="https://jamehzlee.github.io/Pokemon-Data-Finder/" class="column">
                             <img class="column box is-centered is-full p-2" src="./assets/images/pokemon.png" alt="placeholder work image" />
                         </a>
                     </div>
                     <div class="columns m-0">
                         <div class="column">
-                            <a class="is-size-4 has-text-weight-medium is-underlined" href="https://github.com/jamehzlee/Day-Planner">Day Planner on GitHub</a>
+                            <a class="is-size-3 has-text-weight-bold is-underlined" href="https://github.com/jamehzlee/Day-Planner">Day Planner on GitHub</a>
                             <a href="https://jamehzlee.github.io/Day-Planner/" class="column p-1">
                                 <img class="column box is-centered is-full p-2" style="height: 200px;" src="./assets/images/planner.png" alt="placeholder work image" />
                             </a>
                         </div>
                         <div class="column">
-                            <a class="is-size-4 has-text-weight-medium is-underlined" href="https://github.com/jamehzlee/Weather-Dashboard">Weather Dashboard on GitHub</a>
+                            <a class="is-size-3 has-text-weight-bold is-underlined" href="https://github.com/jamehzlee/Weather-Dashboard">Weather Dashboard on GitHub</a>
                             <a href="https://jamehzlee.github.io/Weather-Dashboard/" class="column p-1">
                                 <img class="column box is-centered is-full p-2" style="height: 200px;" src="./assets/images/weather.png" alt="placeholder work image" />
                             </a>
@@ -76,7 +76,7 @@
 
             <!-- Contact Me -->
             <article id="contact-me" class="custom-article">
-                <div class="column box is-2 has-background-info has-text-white is-size-3">Contact Me</div>
+                <div class="column box is-2 has-background-info has-text-white is-size-2">Contact Me</div>
                 <div class="column">
                     <div class="has-text-centered">
                         <div class="button custom-button">201-364-3636</div>
@@ -88,7 +88,7 @@
 
             <!-- Resume -->
             <article id="resume" class="custom-article">
-                <div class="column box is-2 has-background-info has-text-white is-size-3">Resume</div>
+                <div class="column box is-2 has-background-info has-text-white is-size-2">Resume</div>
                 <p class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit turpis sed urna porta, eleifend
                     efficitur erat elementum.
                     Pellentesque ipsum orci, semper sit amet ex nec, vestibulum commodo lorem. Sed luctus at felis id
